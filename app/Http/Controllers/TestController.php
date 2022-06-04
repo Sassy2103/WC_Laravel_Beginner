@@ -9,6 +9,12 @@ use App\Http\Requests\TestPostRequest;
 class TestController extends Controller
 {
     /**
+     * タスクの新規登録
+     */
+    public function register(TaskRegisterPostRequest $request)
+    {
+    }
+    /**
      * トップページ を表示する
      * 
      * @return \Illuminate\View\View
